@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Todo = ({ todo, toggleTodo }) => {
+  // Super simple function reaching up
   function handleTodoClick() {
     toggleTodo(todo.id)
   }
